@@ -2,7 +2,7 @@ MIN_SAFE_SPEED = 40
 MAX_SAFE_SPEED = 60
 
 def unsafe?(speed)
-	if speed < MIN_SAFE_SPEED || speed > MAX_SAFE_SPEED 
+	if speed < MIN_SAFE_SPEED || speed > MAX_SAFE_SPEED
 		"unsafe"
 	else
 		"safe"
