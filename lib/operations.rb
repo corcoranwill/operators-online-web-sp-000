@@ -12,5 +12,5 @@ ends
 
 
 def not_safe?(speed)
-	if speed < MIN_SAFE_SPEED || speed > MAX_SAFE_SPEED  ? true : false
+	speed < MIN_SAFE_SPEED || speed > MAX_SAFE_SPEED  ? true : false
 end
